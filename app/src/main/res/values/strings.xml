@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TrabajoFinalApp</string>
+    <string name="app_name">Trabajo Final</string>
+    <string name="developer_name">Dany Orlando Santos Morel</string>
+    <string name="id_student">Matricula: 15-EISN-1-088</string>
 </resources>
