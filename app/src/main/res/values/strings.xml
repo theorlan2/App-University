@@ -2,4 +2,13 @@
     <string name="app_name">Trabajo Final</string>
     <string name="developer_name">Dany Orlando Santos Morel</string>
     <string name="id_student">Matricula: 15-EISN-1-088</string>
+    <string name="js_title">Javascript</string>
+    <string name="js_contet">Proyectos con Vue, React, ect..</string>
+    <string name="php_title">PHP</string>
+    <string name="php_contet">Proyectos con Larave, PHP Slim, ect..</string>
+    <string name="css_title">CSS 3</string>
+    <string name="css_contet">Maquetacion y diseño de proyectos con css y Sass(Scss), Librerias como Boostrap, ect..</string>
+    <string name="ide_title">IDE (s)</string>
+    <string name="ide_content"></string>
+
 </resources>
