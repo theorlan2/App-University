@@ -18,16 +18,13 @@ public class MainActivity extends AppCompatActivity {
         MyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ListSong = new Intent(getApplicationContext(), otherActivity.class);
-                startActivity(ListSong);
+                Intent intent = new Intent(getApplicationContext(), otherActivity.class);
+                intent.putExtra("id_select","js_title");
+                startActivity(intent);
             }
         });
 
     }
 
-
-    public  void Controller() {
-
-    }
 
 }
