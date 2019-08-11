@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="50dp">
+        tools:layout_editor_absoluteY="49dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,13 +49,53 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Title"
                         tools:textColor="#444" />
 
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="178dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/matricula_title"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                            tools:layout_editor_absoluteY="100dp" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:text="15-EISN-1-088"
+                            tools:layout_editor_absoluteY="100dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="@string/id_student"
-                        tools:layout_editor_absoluteY="100dp" />
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textGithub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Github:"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+                        <TextView
+                            android:id="@+id/textViewGithub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/id_account_github"
+                            tools:layout_editor_absoluteY="100dp" />
+                    </LinearLayout>
 
                     <Button
                         android:id="@+id/button01"
@@ -63,7 +103,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:text="Otra vista" />
+                        android:text="Lista desde API" />
                 </LinearLayout>
 
             </LinearLayout>
